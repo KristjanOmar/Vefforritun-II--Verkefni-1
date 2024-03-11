@@ -9,3 +9,7 @@ def nafn():
 @app.route('/hallo_heimur')
 def hallo_heimur():
     return "Halló, heimur!"
+
+@app.route('/<eitthvad>')
+def eitthvad(eitthvad):
+    return eitthvad
