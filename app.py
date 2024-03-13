@@ -14,6 +14,6 @@ def hallo_heimur():
 def eitthvad(eitthvad):
     return eitthvad
 
-@app.route('/conflict2')
-def conflict2():
+@app.route('/conflict1')
+def conflict1():
     return "Merge conflict"
