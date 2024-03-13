@@ -13,3 +13,7 @@ def hallo_heimur():
 @app.route('/<eitthvad>')
 def eitthvad(eitthvad):
     return eitthvad
+
+@app.route('/conflict2')
+def conflict2():
+    return "Merge conflict"
